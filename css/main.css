@@ -1,0 +1,27 @@
+/* The font tings */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Raleway|Rubik+Mono+One&display=swap');
+
+:root {
+	--font-text: "Raleway", "Roboto", "Segoe UI", "sans-serif";
+	--font-title: "Rubik Mono One", "serif";
+	--font-code: "IBM Plex Mono", "monospace";
+}
+
+* {
+	font-family: var(--font-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-title);
+	font-weight: 400;
+}
+
+code, kbd {
+	font-family: var(--font-code);
+	padding: 3.75px;
+}
+
+/* Water.css overrides */
+* {
+	line-height: 2em;
+}

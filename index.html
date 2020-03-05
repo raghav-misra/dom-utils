@@ -4,9 +4,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/water.css" rel="stylesheet" type="text/css" />
+		<link href="./css/main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script src="script.js"></script>
+		<header id="header">
+			<h1>dom-utils</h1>
+			<p>
+				A small collection of utilities to simplify frontend JS development,
+				particularly DOM interactions.
+
+			<p>
+			<code>import * as DOMUtils from './lib/dom-utils.js';</code>
+		</header>
+		<hr>
+		<section id="feature-list">
+			<h2>The whole list:</h2>
+			<ul>
+				<li><code>search</code> - Find element(s) in the DOM.</li>
+				<li>
+					<code>setProperty</code> -
+					<code>HTMLElement.setAttribute</code> with support for events and properties.
+				</li>
+				<li><code>createElement</code> - Build DOM elements faster and with JSX.</li>
+				<li><code>render</code> - Render Nodes and strings into DOM elements.</li>
+				<li>
+					<code>Fragment</code> - 
+					Build DocumentFragments with <code>createElement</code></li>
+				<li><code>cssObject</code> - Convert a JS object to a minified CSS string.</li>
+			</ul>
+		</section>
   </body>
 </html>
